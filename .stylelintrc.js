@@ -1,11 +1,12 @@
 /**
  * Rule for pattern names (like, class selector names etc.)
- * @type {[string,{severity: string}]}
+ * @type {[string,{severity: string, message: string}]}
  */
 const CAMEL_CASE = [
   '^(([a-z]+[A-Z]+\\w+)|([a-z]+\\w+))+$',
   {
     severity: 'error',
+    message: 'Name is expected to be in camelCase.',
   },
 ];
 
