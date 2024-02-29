@@ -1,8 +1,11 @@
 import { PropsWith } from '@xenopomp/advanced-types';
 import { FC } from 'react';
+import cn from 'classnames';
 
 import Footer from '@/src/components/layout/Footer/Footer';
 import Header from '@/src/components/layout/Header/Header';
+
+import styles from './CoreLayout.module.scss';
 
 import type { CoreLayoutProps } from './CoreLayout.props';
 
@@ -26,13 +29,13 @@ const CoreLayout: FC<PropsWith<'children', CoreLayoutProps>> = ({
   children,
 }) => {
   return (
-    <>
+    <div aria-hidden className={cn(styles.layoutWrapper)}>
       <Header />
 
       {children}
 
       <Footer />
-    </>
+    </div>
   );
 };
 

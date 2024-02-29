@@ -13,7 +13,7 @@ export const metadata: Metadata = generateStaticMetadata({
 export default function Home() {
   return (
     <main className={cn(styles.mainPage)}>
-      <UiContainer className={cn('bg-red-400')}>index page</UiContainer>
+      <UiContainer className={cn(styles.view)}>index page</UiContainer>
     </main>
   );
 }
