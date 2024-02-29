@@ -14,7 +14,7 @@ const Header: FC<HeaderProps> = () => {
         </section>
 
         <section>
-          <div>ИС1-45</div>
+          <strong className={cn('font-normal')}>ИС1-45</strong>
         </section>
       </UiContainer>
     </header>
