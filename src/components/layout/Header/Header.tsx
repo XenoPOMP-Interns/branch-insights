@@ -10,7 +10,7 @@ const Header: FC<HeaderProps> = () => {
     <header>
       <UiContainer className={cn('flex justify-between')}>
         <section>
-          <b>Наумов Александр</b>
+          <strong>Наумов Александр</strong>
         </section>
 
         <section>
