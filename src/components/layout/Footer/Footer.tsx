@@ -9,7 +9,7 @@ import type { FooterProps } from './Footer.props';
 const Footer: FC<FooterProps> = () => {
   return (
     <footer className={cn(styles.appFooter)}>
-      <UiContainer>Footer</UiContainer>
+      <UiContainer>This is a footer</UiContainer>
     </footer>
   );
 };
