@@ -6,4 +6,9 @@
   main {
     flex-grow: 1;
   }
+
+  header,
+  footer {
+    @apply py-[1rem];
+  }
 }
