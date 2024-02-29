@@ -8,7 +8,15 @@ import cn from 'classnames';
 const Header: FC<HeaderProps> = () => {
   return (
     <header>
-      <UiContainer className={cn('')}>Header</UiContainer>
+      <UiContainer className={cn('flex justify-between')}>
+        <section>
+          <b>Наумов Александр</b>
+        </section>
+
+        <section>
+          <div>ИС1-45</div>
+        </section>
+      </UiContainer>
     </header>
   );
 };
